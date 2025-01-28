@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const following = document.querySelector('#following');
     const link = document.querySelector('#link');
 
-    fetch('http//api.github.com/users/BetoCruz')
+    fetch('https://api.github.com/users/BetoCruz')
     .then(function(response){
         return response.json()        
     })   
